@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissorsss</title>
+  </head>
+  <body>
+    <section class="modal">
+      <div class="modal-wrapper">
+        <h2 class="fs-x-large ff-sans-bold text-dark uppercase">Rules</h2>
+        <img class="button-close d" src="assets/icon-close.svg" alt="close" />
+
+        <img class="margin-top-md" src="assets/image-rules.svg" alt="rules" />
+      </div>
+    </section>
+    <header class="main-header container-fluid-sm flex">
+      <h1 class="visually-hidden">Rock Paper Scissors</h1>
+      <img class="logo" src="assets/logo.svg" alt="logo" />
+      <div class="score ff-sans-bold bg-white">
+        <h2 class="fs-normal uppercase text-accent">Score</h2>
+        <p class="user-score fs-x-huge text-dark">0</p>
+        <p class="fs-small text-dark uppercase inline">Total Games:</p>
+        <p class="fs-small text-dark inline total-score">0</p>
+      </div>
+    </header>
+    <main class="container-fluid-md">
+      <div class="game-wrapper buttons-game"></div>
+      <div class="result-wrapper">
+        <div class="user-selection events-none"></div>
+        <div class="result-message">
+          <h2 class="result-message-title fs-x-large uppercase"></h2>
+          <button class="button result-message-button">Play again</button>
+        </div>
+        <div class="pc-selection events-none"></div>
+      </div>
+    </main>
+    <footer class="container-fluid-md">
+      <button class="button button-outline button-rules">Rules</button>
+      <div class="attribution fs-tiny margin-top-md">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by
+        <a href="https://github.com/cinthiacm72/" target="_blank"
+          >Cinthia Cabero Mencia</a
+        >
+      </div>
+    </footer>
+
+    <template id="button-game-template">
+      <button class="button-game">
+        <div class="button-game-container">
+          <img />
+        </div>
+      </button>
+    </template>
+
+    <script type="module" src="scripts.js"></script>
+  </body>
+</html>
