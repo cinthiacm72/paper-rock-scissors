@@ -263,7 +263,7 @@ footer {
 .main-header {
   display: flex;
   justify-content: space-between;
-  margin-block: 3rem;
+  margin-block: 2rem;
   padding: 1.5em;
   border-radius: 16px;
   border: 2px solid hsl(var(--clr-medium));

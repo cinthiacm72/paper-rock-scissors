@@ -51,6 +51,7 @@ document.addEventListener("click", (e) => {
 
 // ** SET GAME ** //
 $resultMessage.style.visibility = "hidden";
+$resultWrapper.style.display = "none";
 
 data.map((el) => {
   createIconButtonGame(el);
