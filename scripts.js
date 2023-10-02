@@ -31,8 +31,7 @@ const createIconButtonGame = (value) => {
 // ** MODAL RULES ** //
 const $modal = document.querySelector(".modal");
 
-//$modal.style.opacity = "0";
-$modal.style.display = "none";
+$modal.style.opacity = "0";
 
 document.addEventListener("click", (e) => {
   if (e.target.matches(".button-rules")) {
