@@ -51,6 +51,7 @@ document.addEventListener("click", (e) => {
 
 // ** SET GAME ** //
 $resultMessage.style.visibility = "hidden";
+$resultMessage.style.display = "none";
 $resultWrapper.style.display = "none";
 
 data.map((el) => {
