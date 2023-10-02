@@ -348,7 +348,7 @@ footer {
 }
 
 .score {
-  padding: 1em;
+  padding: 1rem;
   border-radius: 10px;
   text-align: center;
 }
@@ -519,6 +519,15 @@ footer {
 /*  Media queries
    ========================================================================== */
 @media screen and (max-width: 600px) {
+  .main-header {
+    margin-block: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .score {
+    padding: 0.5rem;
+  }
+
   footer {
     text-align: center;
   }
@@ -568,6 +577,11 @@ footer {
 
   .game-wrapper {
     background-size: 50%;
+  }
+
+  .game-wrapper,
+  .result-wrapper {
+    margin-block-start: 0.5rem;
   }
 
   @keyframes Ripple {
